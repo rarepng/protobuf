@@ -104,7 +104,7 @@
 #pragma runtime_checks("c", off)
 #endif
 
-#include "absl/log/absl_log.h"  // Replace with vlog_is_on.h after Abseil LTS 20240722
+#include "absl/log/vlog_is_on.h"  // Replace with vlog_is_on.h after Abseil LTS 20240722 !done
 
 #include "absl/log/absl_check.h"
 #include "absl/numeric/bits.h"
